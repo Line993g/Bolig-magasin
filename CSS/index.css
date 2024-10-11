@@ -1,0 +1,37 @@
+/* Her er designet på menu baren og logo*/
+
+.navbar ul {
+    list-style-type: none;
+    background-color: d2b48c;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    font-family: vogue;
+  }
+  
+  .navbar a {
+    color: rgb(254, 254, 254);
+    text-decoration: none;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar a:hover {
+    background-color: rgba(197, 149, 91, 0.533);
+  }
+  
+  .navbar li {
+    flex: 1; /* Beholder flexbox-styling */
+    text-align: center; /* Centrerer tekst inden i li */
+  }
+  
+.center{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
